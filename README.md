@@ -19,7 +19,7 @@ I'm a computer science student at Carnegie Mellon University (class of 2029). I 
 - **[Lantern](https://github.com/michaelli28/lantern)** (Claude Hackathon 2026): Turns a WW2 veteran's YouTube testimony into a letter in their voice. A chain of Claude agents pulls story fragments out of the transcript, fact-checks them with web search, maps the people and places, and writes the letter, streaming each step to the browser.
 - **[Imposture](https://github.com/michaelli28/imposture)** (YHack 2026): A webcam desk pet. MediaPipe models score posture and spot phones, an event bus turns those readings into pet reactions sent to an Arduino LCD over serial, and a wake word plus speech-to-text handles voice commands.
 - **[ECHO](https://github.com/michaelli28/echo-platformer)** (TartanHacks 2026): A browser puzzle platformer in a single HTML file. A fixed 30 fps loop keeps a two-second buffer of the player's positions that a ghost copy replays, with Canvas 2D lighting and all sound generated with the Web Audio API.
-- **[Carnegie Cookoff Bot](https://github.com/michaelli28/awap-cookoff-bot)** (AWAP 2026): A Python bot for a two-team kitchen game. It precomputes BFS paths from every tile, ranks open orders each turn, and turns each order into a list of recipe steps that the robots carry out one at a time.
+- **[Carnegie Cookoff Bot](https://github.com/michaelli28/overcooker/blob/master/bots/optimal_bot.py)** (AWAP 2026): A Python bot for a two-team kitchen game. It finds paths with BFS on demand and caches the distances, ranks open orders each turn, and turns each order into a list of recipe steps that the robots carry out one at a time.
 
 ### Smaller projects
 
