@@ -1,8 +1,8 @@
-# Hi, I'm Michael
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0ea5e9&height=140&section=header&text=Hi,%20I'm%20Michael&fontColor=ffffff&fontSize=42&fontAlignY=38&animation=fadeIn" alt="Hi, I'm Michael" width="100%" />
 
 I'm a computer science student at Carnegie Mellon University (class of 2029). I mostly build apps around LLM agents, small machine learning experiments and developer tools, and I also like math. Most of my projects are TypeScript or Python.
 
-[LinkedIn](https://www.linkedin.com/in/michael-li2)
+<a href="https://www.linkedin.com/in/michael-li2"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>
 
 ## Projects
 
@@ -29,4 +29,20 @@ I'm a computer science student at Carnegie Mellon University (class of 2029). I 
 
 ## Languages and tools
 
-TypeScript, Python, JavaScript, Swift, C++ (Arduino), Next.js, React, FastAPI, PyTorch, Playwright, Postgres (Supabase, pgvector), Modal, Claude API
+<img src="https://skillicons.dev/icons?i=ts,py,js,swift,cpp,react,nextjs,tailwind,fastapi,pytorch,postgres,supabase,docker,arduino&perline=14" alt="TypeScript, Python, JavaScript, Swift, C++, React, Next.js, Tailwind CSS, FastAPI, PyTorch, PostgreSQL, Supabase, Docker, Arduino" />
+
+Also: Playwright, pgvector, Modal, Claude API
+
+## GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michaelli28/michaelli28/output/top-langs-dark.svg" />
+  <img src="https://raw.githubusercontent.com/michaelli28/michaelli28/output/top-langs.svg" alt="Most used languages across my public repos" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michaelli28/michaelli28/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/michaelli28/michaelli28/output/github-snake.svg" alt="A snake eating my GitHub contribution graph" />
+</picture>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0ea5e9&height=100&section=footer" alt="" width="100%" />
