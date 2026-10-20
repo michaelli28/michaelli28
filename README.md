@@ -6,16 +6,19 @@ I'm a computer science student at Carnegie Mellon University (class of 2029). I 
 
 ## Projects
 
-### Main projects
+### Top projects
 
-- **[SpotifySorter](https://github.com/michaelli28/spotify-sorter)**: A local Next.js app that scans a Spotify library, has Claude propose mood categories and score every track against them in batches, then writes the results back to Spotify as private playlists. A separate `ml/` experiment trains small PyTorch models on frozen audio embeddings (MERT, CLAP) to predict Claude's picks from the audio alone.
-- **[Proteus](https://github.com/michaelli28/proteus-forecasting)**: A TypeScript simulation engine that splits a question into outcome ranges, runs a seeded ensemble of simulations of a synthetic world, and turns the share of runs in each range into probabilities. An abstention gate declines to answer when the evidence cannot tell the ranges apart. Python solvers (WNTR/EPANET, SciPy) handle the water network and repair scheduling models.
+- **[TreeMux](https://github.com/michaelli28/treemux)** (TreeHacks 2026): Hands one task to several Claude Code agents running in Modal sandboxes. Each agent pushes its app to its own GitHub branch and Vercel deployment, then AI judges (some using a real browser) review the live sites and rank them.
 - **[AT-Agent](https://github.com/michaelli28/accessibility-agent)**: A Playwright command-line tool that checks web pages for accessibility problems. It runs axe-core scans, compares the DOM with Chrome's accessibility tree to find controls screen readers can't reach, walks the page with the Tab key to find keyboard traps, and can let an LLM agent try a task while auditing. Team project.
+- **[SpotifySorter](https://github.com/michaelli28/spotify-sorter)**: A local Next.js app that scans a Spotify library, has Claude propose mood categories and score every track against them in batches, then writes the results back to Spotify as private playlists. A separate `ml/` experiment trains small PyTorch models on frozen audio embeddings (MERT, CLAP) to predict Claude's picks from the audio alone.
+
+### More projects
+
+- **[Proteus](https://github.com/michaelli28/proteus-forecasting)**: A TypeScript simulation engine that splits a question into outcome ranges, runs a seeded ensemble of simulations of a synthetic world, and turns the share of runs in each range into probabilities. An abstention gate declines to answer when the evidence cannot tell the ranges apart. Python solvers (WNTR/EPANET, SciPy) handle the water network and repair scheduling models.
 - **[Entity](https://github.com/michaelli28/entity)**: A Next.js and FastAPI app where startup founders talk with a Claude mentor in structured sessions. Each chat turn streams a reply, pulls structured facts out of the founder's answers, and can cite research paper excerpts retrieved from Postgres with pgvector.
 
 ### Hackathon and competition builds
 
-- **[TreeMux](https://github.com/michaelli28/treemux)** (TreeHacks 2026): Hands one task to several Claude Code agents running in Modal sandboxes. Each agent pushes its app to its own GitHub branch and Vercel deployment, then AI judges (some using a real browser) review the live sites and rank them.
 - **[Lantern](https://github.com/michaelli28/lantern)** (Claude Hackathon 2026): Turns a WW2 veteran's YouTube testimony into a letter in their voice. A chain of Claude agents pulls story fragments out of the transcript, fact-checks them with web search, maps the people and places, and writes the letter, streaming each step to the browser.
 - **[Imposture](https://github.com/michaelli28/imposture)** (YHack 2026): A webcam desk pet. MediaPipe models score posture and spot phones, an event bus turns those readings into pet reactions sent to an Arduino LCD over serial, and a wake word plus speech-to-text handles voice commands.
 - **[ECHO](https://github.com/michaelli28/echo-platformer)** (TartanHacks 2026): A browser puzzle platformer in a single HTML file. A fixed 30 fps loop keeps a two-second buffer of the player's positions that a ghost copy replays, with Canvas 2D lighting and all sound generated with the Web Audio API.
